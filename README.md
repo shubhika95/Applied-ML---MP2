@@ -22,3 +22,10 @@ For single_cropping i just used one image from the dataset, trying to crop all i
 Once, the training image and labels and testing images are preprocessed we can directly use them in the CNN scripts, to determine accuracy. So this is where we need to use functions to preprocess at each step and pass them to CNN scripting.
 
 Once we are able to load these "modified" MNIST dataset, and get good accuracy it wont be difficult to plot them for different epochs.
+
+
+Related and similar projects that might help you (I have been taking hints from some these projects executed on various MNIST dataset):
+1. https://github.com/tiff-wang/ModifiedMNIST
+2. https://www.pyimagesearch.com/2017/02/13/recognizing-digits-with-opencv-and-python/
+3. https://gsari.medium.com/digit-recognition-with-opencv-and-python-cbf962f7e2d0
+4. https://www.kaggle.com/whizzkid/crop-images-using-bounding-box
